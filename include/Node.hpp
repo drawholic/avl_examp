@@ -4,8 +4,12 @@
 template <typename T>
 class Node
 {
+	T* value;
+	Node* left;
+	Node* right;
+
 public:
-	Node(T);
+	Node(T); 
 };
 
 #endif
