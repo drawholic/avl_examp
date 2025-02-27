@@ -7,6 +7,7 @@ class Node
 	T* value;
 	Node* left;
 	Node* right;
+	int height;
 
 public:
 	Node(T); 
